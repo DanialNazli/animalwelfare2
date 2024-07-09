@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Welfare</title>
+    <link rel="stylesheet" href="externalpr.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: transparent;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            background-color: #f5ede6;
+            color: black; 
+        }
+
+        header {
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 0.5rem;
+        }
+
+        section {
+            margin-bottom: 5rem;
+        }
+
+        h3 {
+            border-bottom: 2px solid teal;
+            padding-bottom: 0.5rem;
+            color: black; 
+        }
+
+        h4 {
+            font-family: cursive;
+        }
+
+        p {
+            font-family: cursive;
+            max-height: 100px; 
+            overflow-y: scroll; 
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(1, 1fr);   
+        }
+
+        .grid-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: black;
+        }
+
+        .grid-item:nth-child(1) {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .grid-item:nth-child(2) {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+        .grid-item:nth-child(3) {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+        .grid-item:nth-child(4) {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .grid-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: black;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-50px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 50%;
+            margin-bottom: 0.5rem;
+            object-fit: cover;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animal Welfare Organisation</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Donation1.html">Donation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="past-programs">
+            <h3>Past Programs</h3>
+            <div class="grid-container">
+                <article class="grid-item">
+                    <img src="feedcat1.jpg" alt="Save the Strays Campaign">
+                    <h4>Save the Strays Campaign</h4>
+                    <p>This program focused on rescuing and providing shelter to stray animals in the urban areas. Over 500 animals were successfully rehomed. This program focused on rescuing and providing shelter to stray animals in the urban areas. Over 500 animals were successfully rehomed. This program focused on rescuing and providing shelter to stray animals in the urban areas. Over 500 animals were successfully rehomed. This program focused on rescuing and providing shelter to stray animals in the urban areas. Over 500 animals were successfully rehomed.</p>
+                    <p1>Date: 2023-05-10</p1>
+                </article>
+                <article class="grid-item">
+                    <img src="feedcat.jpg" alt="Animal Health Camp">
+                    <h4>Animal Health Camp</h4>
+                    <p>Upcoming health camp for domestic animals in rural areas, providing free veterinary services and education on animal care. Upcoming health camp for domestic animals in rural areas, providing free veterinary services and education on animal care. Upcoming health camp for domestic animals in rural areas, providing free veterinary services and education on animal care. Upcoming health camp for domestic animals in rural areas, providing free veterinary services and education on animal care.</p>
+                    <p1>Date: 2022-11-22</p1>
+                </article>
+                
+                <article class="grid-item">
+                    <img src="feedcat2.jpg" alt="Cat Assisted Therapy">
+                    <h4>Cat Assisted Therapy</h4>
+                    <p>It’s a therapeutic place where visitors can play with cats, play with the animals and enjoy relaxing music!</p>
+                    <p1>Date: 2022-05-02</p1>
+                </article>
+            </div>
+        </section>
+        
+        <section id="future-schedule">
+            <h3>Future Schedule</h3>
+            <div class="grid-container">
+                <article class="grid-item">
+                    <img src="2.jpg" alt="Wildlife Conservation Initiative">
+                    <h4>Wildlife Conservation Initiative</h4>
+                    <p>Aimed at protecting endangered wildlife through community education and conservation efforts. It included workshops and fieldwork activities. Aimed at protecting endangered wildlife through community education and conservation efforts. It included workshops and fieldwork activities. Aimed at protecting endangered wildlife through community education and conservation efforts. It included workshops and fieldwork activities. Aimed at protecting endangered wildlife through community education and conservation efforts. It included workshops and fieldwork activities.</p>
+
+                    <p1>Date: 2024-07-15</p1>
+                </article>
+                <article class="grid-item">
+                    <img src="Awareness.png" alt="Community Awareness Drive">
+                    <h4>Community Awareness Drive</h4>
+                    <p>A series of events to raise awareness about animal welfare and promote humane treatment of animals through interactive sessions and activities.</p>
+                    <p1>Date: 2024-09-10</p1>
+                </article>
+            </div>
+        </section>
+        
+        <section id="education-programs">
+            <h3>Animal Welfare Education</h3>
+            <div class="grid-container">
+                <article class="grid-item">
+                    <img src="therapy.webp" alt="Primary School Programme">
+                    <h4>Primary School Programme</h4>
+                    <p>Our Primary Education programs teach young learners about animal welfare while nurturing their love for all living creatures.</p>
+                </article>
+                <article class="grid-item">
+                    <img src="therapy1.webp" alt="High School Programme">
+                    <h4>High School Programme</h4>
+                    <p>Our sessions engage students using powerful visual presentations, challenging real-life cruelty cases, and raising awareness around animal welfare campaigns.</p>
+                </article>
+            </div>
+        </section>
+        
+                <section id="embedded-content">
+            <h3>Explore More</h3>
+            <div class="grid-container">
+                <article class="grid-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E7kIreZHGwo?si=KZdx-v9n-MV81dyX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4>Animal Welfare Video</h4>
+                    <p>Watch this video to learn more about our animal welfare initiatives and success stories.</p>
+                </article>
+                <article class="grid-item">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254937.7724963568!2d101.30096373634169!3d3.2496663342026157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc61341a471d07%3A0x62057ac251b87420!2sUniversiti%20Selangor%20(UNISEL)%20Bestari%20Jaya!5e0!3m2!1sen!2smy!4v1720491124554!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h4>Visit Us</h4>
+                    <p>Find our location on the map and come visit us to learn more about our work and how you can contribute.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2 style="color: white;">Contact Us Now!</h2>
+        <a href="https://instagram.com/danialnazli._"> Instagram </a>
+        <a href="https://facebook.com"> Facebook  </a>
+        <a href="https://tiktok.com/danialnazli._"> Tiktok  </a>
+        <p style="color: white;">&copy; 2024 Animal Welfare Organization. All rights reserved.</p>
+        <audio controls src="CircleOfLife.mp3" autoplay></audio>
+    </footer>
+</body>
+</html>

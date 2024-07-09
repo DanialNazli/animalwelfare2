@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Welfare</title>
+    
+    <style type="text/css">
+        .content {
+            display: flex;
+            padding: 20px;
+            flex: 1;
+            top: 400px;
+        }
+
+        .hover-float {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.hover-float:hover {
+    transform: translateY(-20px); /* Move the image up by 10 pixels */
+}
+
+/*form flaop*/
+.form {
+    width: 250px;
+    height: 380px;
+    background: rgba(139, 195, 74, 0.8); /* Semi-transparent background */
+    position: absolute;
+    left: 840px;
+    top: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.form:hover {
+    transform: translateY(-10px); /* Move the form up by 10 pixels when hovered */
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+        
+
+       /*form section*/
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: rgba(139, 195, 74, 0.8);
+    left: 840px;
+    top: 160px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+  .form h2{
+    width: 200;width: 200;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: aquamarine;
+     border-radius: 10px;
+     padding: 8px;
+  } 
+
+  .form input{
+    width: 230px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid aquamarine;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+
+  .form input:focus{
+    outline: none;
+  }
+
+  ::placeholder{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .btnn{
+    width: 240px;
+    height: 40px;
+    background: aquamarine; 
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue ;
+    transition: 0.4 ease;
+  }
+  .btnn:hover{
+    background: white;
+    color: blue;
+  }
+
+  .btnn a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+  }
+
+  .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .form .link a{
+    text-decoration: none;
+    color: chartreuse;
+  }
+
+  .liw{
+    padding: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  /*second section*/
+  section {
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            border-bottom: 2px solid orange;
+            padding-bottom: 0.5rem;
+            color: white; /* Ensure h3 color */
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+            grid-template-rows: repeat(1, 1fr);    
+            gap: 1rem; 
+        }
+
+        .grid-item {
+            
+            padding: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: white;
+        }
+
+        /* Adjust grid item positions and sizes */
+        .grid-item:nth-child(1) {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .grid-item:nth-child(2) {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        
+        /* Add more styles as needed for additional grid items */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .grid-item {
+            
+           
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: white; /* Ensure text color */
+        }
+
+        .grid-item:hover {
+            transform: translateY(-50px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 50%;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+    <link rel="stylesheet" href="externalpr.css">
+    <link rel="icon" type="image" href="images/wild-animals.png">
+</head>
+
+
+<body>
+     <header>
+        <h1>Animal Welfare Organisation</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Donation1.html">Donation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="table">
+            <section id="past-programs">
+                <h2>Objectives</h2>
+                <div class="grid-container">
+                    <article class="grid-item">
+                        <p>The primary objective of an animal welfare organization is to ensure the humane treatment and well-being of animals.<br>
+                        This involves advocating for better living conditions, proper nutrition, and adequate medical care.<br>
+                        They work to prevent cruelty and abuse through education, legislation, and direct intervention.<br>
+            
+                        Another key objective is to influence and implement policies that protect animals from exploitation and harm.<br>
+                        Animal welfare organizations collaborate with government agencies, policymakers, and advocacy groups.</p>
+                        <img src="3_jungle_animals.webp" alt="Save the Strays Campaign" class="hover-float">
+                    </article>
+                </div>
+            </section>
+        </div>
+        <section class="content">
+           
+
+            <div class="form">
+                <h2>Registration Form</h2>
+                <input type="text" name="full name" placeholder="Full Name">
+                <input type="email" name="email address" placeholder="Email Address">
+                <input type="number" name="phone number" placeholder="Phone Number">
+                <input type="text" name="state" placeholder="State">
+                <button class="btnn"><a href="#">Register</a></button>
+            </div>
+        </section>
+
+        <section id="future-schedule">
+            <div class="grid-container">
+                <article class="grid-item">
+                    <img src="many-different-animals-walking-under-260nw-2271582749.webp" alt="Animal Health Camp">
+                    <h2>Vision</h2>
+                    <p>Our vision is to create a world where animals are treated with compassion and respect.</br>
+                         We strive to be a leading force in animal welfare by actively engaging in government and NGO programs that promote the well-being of animals.</br>
+                          Through education, advocacy, and direct action, we aim to foster a society that values and protects all animal life.</br>
+                           Our commitment is to make a lasting and positive impact on animal welfare, ensuring a better future for animals and humans alike.
+                  </p>
+                    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contact Us Now!</h2>
+        <a href="https://instagram.com/danialnazli._"> Instagram </a>
+        <a href="https://facebook.com/AnimalWelfairAssociation"> Facebook </a>
+        <a href="https://tiktok.com/animalmalaysia"> Tiktok </a>
+        <p>&copy; 2024 Animal Welfare Organization. All rights reserved.</p>
+        <audio controls src="CircleOfLife.mp3" autoplay></audio>
+    </footer>
+</body>
+</html>
